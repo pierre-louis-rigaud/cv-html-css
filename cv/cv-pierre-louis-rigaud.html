@@ -1,0 +1,146 @@
+<!-- Toute documentation HTML ce fera comme ceci (appuyer sur ! puis ENTREE, ou tape html puis choisie html 5) -->
+<!DOCTYPE html>
+<!-- la langue de la page  -->
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Pierre-Louis Rigaud</title>
+
+    <!-- Afin d'améliorer la visibilité il est important de donner une descritpion a son site -->
+    <meta name="description" content="Ceci est mon CV fait en HTML, il vous montrera mes compétences ainsi que mes aspiration et mes coordonnées." />
+
+    <!-- Pour la visibilité toujours utilisation des balises Open Graph pour que mon CV apparaisse correctement dans les publications Facebook -->
+    <meta property="og:title" content="CV Pierre-Louis Rigaud">
+    <meta property="og:description"
+        content="CV Pierre-Louis Rigaud, il vous montrera mes compétences ainsi que mes aspiration et mes coordonnées.">
+    <meta property="og:image" content="images/Pierre-Louis_2.png">
+    <meta property="og:url" content="cv-pierre-louis-rigaud.html">
+    <meta property="og:type" content="CV">
+
+    <!-- Utilisation cette fois de Twitter Cards afin d'aider a ce que mon site apparaisse correctement dans les publications Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="CV Pierre-Louis Rigaud">
+    <meta name="twitter:description"
+        content="CV Pierre-Louis Rigaud, il vous montrera mes compétences ainsi que mes aspiration et mes coordonnées">
+    <meta name="twitter:image" content="images/Pierre-Louis_2.png">
+
+    <!-- Last but nos list utilisation des balises Linkedin Content Meta Tags pour Linkedin quasiment la plus interessante dans le cas d'un CV -->
+    <!-- <meta property="og:title" content="CV Yrles Anthony">
+    <meta property="og:description"
+        content="CV d'Anthony Yrles, présentant son parcours professionnel, ses compétences, et ses coordonnées.CV d'Anthony Yrles, présentant son parcours professionnel, ses compétences, et ses coordonnées.">
+    <meta property="og:image" content="images/hommeflame.jpg">
+    <meta property="og:url" content="mon-cv.html">
+    <meta property="og:type" content="CV">
+    <meta property="og:site_name" content="CV Yrles Anthony"> -->
+
+    <link rel="shortcut icon" href="images/logo_html.png">
+    <!-- <link rel="pingback" href="lien du site web"> -->
+    <title> CV Pierre-Louis - Mon CV en HTML.com</title>
+    <link rel="stylesheet" href="cv-pierre-louis-rigaud.css">
+</head>
+
+<!--  le corp du html sert a changer le contenu de la page web -->
+<body>
+    	<!-- Entête de mon CV contenant les information de base -->
+	<header>
+		<img id="cv-photo" src="images/Pierre-Louis_1.png" height="150">
+		<div id="header-title">
+			<h1>Pierre-Louis Rigaud</h1>
+			<a href="https://drive.google.com/file/d/1krAx4V7vVavArFpfq2Ercp27T4HOkH59/view?usp=sharing"
+				target="_blank"><small>Afficher mon CV en pdf</small></a>
+
+			- pierre-louis.rigaud@laplateforme.io -
+			06 95 41 52 60 -
+			<a download href="CV-pierre-louis-rigaud.pdf"><img src="images/download-logo.png" height="15"
+						alt="Télecharger le CV" title="Telecharger mon CV sous forme pdf"></a>
+		</div>
+	</header>
+
+    
+    <main>
+        <div id="grand-div">
+			<section id="experiences">
+				<h2>MES EXPERIENCES</h2>
+
+				<div class="cv-element">
+					<h4>Stage Architecture: <span>Toulouse</span></h4>
+					<h5>2018 - 2019</h5>
+					<p>Gestion des plan, compréhension du fonctionnement de l'entreprise</p>
+				</div class="cv-element">
+				<div class="cv-element">
+					<h4>Stage d'Architecture: <span>Marseille</span></h4>
+					<h5>2020 - 2021</h5>
+					<p>Aide sur un project</p>
+				</div class="cv-element">
+			</section>
+
+			<!-- Liste de mes formations -->
+			<section id="formations">
+				<h2>MES FORMATIONS</h2>
+				<div class="cv-element">
+					<h4>La Plateforme - <span>Bachelor IT</span></h4>
+					<h5>Septembre 2023 - Aujourd'hui</h5>
+					<p>Actuelement en prépa IT</p>
+				</div class="cv-element">
+				<div class="cv-element">
+					<h4>AWS - <span>Amazon Web Service</span></h4>
+					<h5>Mai 2023 - Août 2023</h5>
+					<p>Formation AWS au sein de l'école La Plateforme.</p>
+				</div class="cv-element">
+			</section>
+		</div>
+
+        <section class="competences">
+			<h2>MES COMPETENCES</h2>
+			<div id="competences-container">
+				<div id="hard-skills">
+					<h4>Hard Skills</h4>
+					<ul>
+                        <li> <img src="images/C.png" height="40" title="C" alt="image_C">  C  </li>
+                        <li> <img src="images/python.png" height="40" title="Python" alt="image_pyhton">  Python </li>
+                        <li> <img src="images/logo_html.png" height="40" title="HTML" alt="logo_html">  HTML </li>
+                        <li> <img src="images/CSS_logo.png" height="40" title="CSS" alt="logo_CSS"> CSS </li>
+                        <li> <img src="images/BASH_logo.png" height="40" title="BASH" alt="logo_BASH"> BASH </li>
+                        <li> <img src="images/cisco_logo.png" height="40" title="Cisco" alt="logo_cisco"> cisco packet tracer </li>
+                        <li> <img src="images/linux_logo.png" height="40" title="Linux" alt="linux_logo"> Linux </li>
+					</ul>
+				</div>
+				<div>
+					<h4>Soft Skills</h4>
+					<ul>
+						<li>Autonomie</li>
+						<li>Travail en équipe</li>
+						<li>Relationnel</li>
+						<li>Aime l'humour</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Langues</h4>
+					<ul>
+						<li><b>Français:</b> Langue maternelle</li>
+						<li><b>Anglais:</b> Parle courament</li>						
+						<li><b>Espagnol:</b> Niveau A1</li>
+						<li><b>Allemand:</b> Niveau A1</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+        <aside>
+			<h2>Mes Objectifs</h2>
+			<p>AD.</p>
+		</aside>
+    </main>
+
+    <footer>
+		<h4>Mes coordonnées :</h4>
+		<a href="https://github.com/pierre-louis-rigaud" target="_blank"><img src="images/GitHub cat.png" height="30"
+				title="Mon GitHub!" alt="logo-github"></a>
+        <a href="https://github.com/pierre-louis-rigaud" target="_blank"><img src="images/LinkedIn_logo.png" height="30"
+                title="Mon Linkedin!" alt="logo-Linkedin"></a>
+	</footer>
+</body>
+
+</html>
