@@ -34,13 +34,15 @@ span {
 }
 
 #formations,
-#experiences {
+#experiences,
+#creations {
     padding: 2%;
     color: black;
 }
 
 #formations h2,
-#experiences h2 {
+#experiences h2,
+#creations {
     padding: 2%;
     color: #27039a;
 }
@@ -51,6 +53,11 @@ span {
 
 #experiences {
     margin-left: 15%;
+}
+
+#creation {
+    margin-left: 50%;
+    display: flex;
 }
 
 .cv-element * {
